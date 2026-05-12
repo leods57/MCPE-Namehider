@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "NameHider Script",
+    "description": "Hide nametags with /nametag <player> <visible/invisible>",
+    "uuid": "3f92b7a1-8d2e-4c5b-9a6f-7e1d2c3b4a5f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Scripting Module",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "a1b2c3d4-e5f6-4a5b-bc6d-7e8f9a0b1c2d",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.10.0"
+    }
+  ]
+}
